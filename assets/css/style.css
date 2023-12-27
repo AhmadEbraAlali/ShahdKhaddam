@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 88px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: 0.2s;
+    box-shadow: rgb(210, 195, 255);
+}
+
+img.sh_img:hover {
+    box-shadow: 0px 0px 20px 5px rgb(210, 195, 255);
+    width: 93px;
+}
+
+.sh_hero{
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(130, 0, 243);
+    gap: 15px;
+    color: aliceblue;
+}
+
+main{
+    margin: 50px auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(92, 32, 221);
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+
+.fathercards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+section{
+    border-bottom: 1px solid rgb(166, 82, 255);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#sh_section1 .fathercards{
+    border-bottom: 1px solid rgb(166, 82, 255);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.sh_card{
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(196, 142, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.icon1{
+    color: aliceblue;
+}
+
+.icon{
+    width: 15px;
+}
+
+.sh_followme{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+#sh_section4 .fathercards{
+    border-bottom: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
